@@ -1,14 +1,12 @@
 # Azure Data Engineering Project – Tokyo Olympics 2021
-
-## Introduction
+---
+## 📝 Introduction
 
 A comprehensive data engineering project on **Microsoft Azure** using the **Tokyo Olympics 2021** dataset. This project showcases the implementation of an end-to-end data pipeline leveraging key Azure services including **Azure Data Factory (ADF)**, **Azure Data Lake Storage Gen2**, **Azure Databricks**, and **Azure Synapse Analytics**.
 
-## Architecture 
-![Project Architecture](Architecture.jpg)
 
-
----
+## 🏗️ Architecture 
+![Project Architecture](https://github.com/JuhilMohadikar/azure-data-engineering-tokyo-olympics2021/blob/main/Architecture%20Diagram.jpg)
 
 ## 🔧 Tools & Technologies Used
 
@@ -19,16 +17,11 @@ A comprehensive data engineering project on **Microsoft Azure** using the **Toky
 | Azure Databricks       | Data transformation using PySpark             |
 | Azure Synapse Analytics| Final querying and analytics layer            |
 
-
----
-
 ## 📊 Dataset Overview
-This data contains the details of over 11,000 athletes, with 47 disciplines, along with 743 Teams taking part in the 2021(2020) Tokyo Olympics.
-This dataset contains the details of the Athletes, Coaches, Teams participating as well as the Entries by gender. It contains their names, countries represented, discipline, gender of competitors, name of the coaches.
+This dataset includes details of over 11,000 athletes, 743 teams, and 47 disciplines from the Tokyo Olympics 2021. It covers information about athletes, coaches, teams, and gender-based participation, including names, countries, disciplines, and roles.
 
-- Source: [Kaggle - 2021 Olympics in Tokyo](https://www.kaggle.com/datasets)
+- Original Data Source: [Kaggle - 2021 Olympics in Tokyo](https://www.kaggle.com/datasets)
 
----
 
 ## 🔄 Data Flow Architecture
 
@@ -45,7 +38,6 @@ This dataset contains the details of the Athletes, Coaches, Teams participating 
 4. **Analytics Layer**  
    - Cleaned data queried in **Azure Synapse Analytics** using serverless SQL pools
 
----
 
 ## 🚀 Key Features
 
