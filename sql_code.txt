@@ -1,0 +1,23 @@
+--count the number of athletes from each country
+
+select Country,COUNT(*) as total_athletes from athletes
+group by Country
+order by total_athletes DESC;
+
+--calculate total medals won by each country
+select 
+TeamCountry,
+SUM(Gold) Total_gold,
+SUM(Silver) Total_silver,
+SUM(Bronze) Total_bronze
+from medals
+group by TeamCountry
+order by Total_gold desc;
+
+--Calculate the average number of entries by gender for each discipline
+
+select discipline,
+AVG(Female)as Avg_Female,
+AVG(Male)as Avg_Male  
+from entriesgender
+group by discipline
